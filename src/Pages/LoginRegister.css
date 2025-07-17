@@ -1,0 +1,84 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* added a light gray background */
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px; /* added a max width to make it more responsive */
+  margin: 40px auto; /* added some margin to make it more centered */
+}
+
+h1 {
+  font-size: 18px; /* increased font size for better readability */
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold; /* added bold font weight for better contrast */
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center; /* added align-items to center the content */
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px; /* increased padding for better clickability */
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #6a11cb;
+  color: white;
+  text-decoration: none;
+  font-size: 18px; /* increased font size for better readability */
+  transition: background-color 0.3s;
+  cursor: pointer; /* added cursor pointer for better usability */
+}
+
+.btn:hover {
+  background-color: #2575fc;
+}
+
+input {
+  width: 100%; /* made the input field full width */
+  padding: 12px; /* increased padding for better usability */
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px; /* increased font size for better readability */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px; /* added some padding to make it more comfortable */
+  border: 1px solid #ddd; /* added a border to make it more visually appealing */
+  border-radius: 8px; /* added a border radius to make it more rounded */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* added a box shadow to make it more elevated */
+}
+
+button{
+  text-align: center;
+}
